@@ -1,0 +1,202 @@
+g<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Portfolio</title>
+<meta name="author" content="Buhle Lusizi">
+<meta name="description" content="This is my portfolio">
+<meta name="keyword" content="HTML,CSS, JavaScript"> 
+<link rel="style sheet" href="style sheet.css" type="text/less">
+</head>
+
+<style>
+ h1 {
+  color: white;
+  text-shadow: 2px 2px 4px  grey;
+} 
+  #heading {
+  border: 5px solid;
+  padding: 10px;
+  box-shadow: 10px 10px;
+
+}
+  body {
+  color: yellow;
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    background: black;
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+ 
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+
+  </style>
+  </head>
+  <body>
+  <body background="yellow.jpg">
+  
+  <div class="navbar">
+    <a href="Index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Contactme.html">Contact details</a>
+    <a href="Achievements.html">Achievements</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="header">
+          <h2>Project Menu</h2>
+        </div>   
+        <div class="row">
+          <div class="column">
+            <h3>Project 1</h3>
+            <a href="https://agitated-hugle-a73baf.netlify.app">Fountain Of Hope</a>
+          </div>
+
+          <div class="column">
+            <h3>Project 2</h3>
+            <a href="https://sleepy-archimedes-48dc15.netlify.app">Artist portfolio</a>
+          </div>
+          <div class="column">
+            <h3>Project 3</h3>
+            <a href="file:///C:/Users/buhle/Desktop/Online%20book/Flip.html">Online book</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+  <div style="padding:16px">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center>
+   
+<div id="heading">
+  <h1 style="color: white;">Hello, my name is Buhle Lusizi and I am a game developer.</h1>
+</div>
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <p style="color:white;">
+Email:<a href="mailto: buhleomuhlelusizi@gmail.com">buhleomuhlelusizi@gmail.com</a>
+<br>
+Phone: 0658070482
+<br>
+&copy;2020 Buhle Lusizi-All rights reserved</p>
+</footer>
+</body>
+</html>
+</center>

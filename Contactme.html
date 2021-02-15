@@ -1,0 +1,145 @@
+<! DOCUMENT TYPE>
+<html>
+    <head>
+<title>Contact</title>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
+    </head>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+   
+      </head>
+      <body>
+      
+      <body background="book.webp"></body>
+      <div class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fa fa-navicon" style="font-size: 36px;"></i>
+
+        </span>
+        <a href="Index.html" class="logo">Buhle Lusizi</a>
+        <ul class="main-nav" id="js-menu">
+        <a href="Index.html" class="nav-links">Home</a>
+        <a href="About.html" class="nav-links">About</a>
+        <a href="Contactme.html" class="nav-links">Contact details</a>
+        <a href="Achievements.html" class="nav-links">Achievements</a>
+        </ul>
+        <div class="dropdown">
+          <button class="dropbtn">Projects 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="header">
+              <h2>Project Menu</h2>
+            </div>   
+            <div class="row">
+              <div class="column">
+                <h3>Project 1</h3>
+                <a href="https://agitated-hugle-a73baf.netlify.app">Fountain Of Hope</a>
+              </div>
+              <div class="column">
+                <h3>Project 2</h3>
+                <a href="gbv/home.html"> GVB</p></a>
+              </div>
+              <div class="column">
+                <h3>Project 3</h3>
+                <a href="file:///C:/Users/buhle/Desktop/Online%20book/Flip.html">Online book</a></p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="form-container">
+            <form name="frmContact" id="" frmContact"" method="post"
+                action="https://formspree.io/f/mrgodwev" enctype="multipart/form-data"
+                onsubmit="return validateContactForm()">
+    
+                <div class="input-row">
+                    <label style="padding-top: 20px;">Name</label> <span
+                        id="userName-info" class="info"></span><br /> <input
+                        type="text" class="input-field" name="userName"
+                        id="userName" />
+                </div>
+                <div class="input-row">
+                    <label>Email</label> <span id="userEmail-info"
+                        class="info"></span><br /> <input type="text"
+                        class="input-field" name="_replyto" id="userEmail" />
+                </div>
+                <div class="input-row">
+                    <label>Subject</label> <span id="subject-info"
+                        class="info"></span><br /> <input type="text"
+                        class="input-field" name="subject" id="subject" />
+                </div>
+                <div class="input-row">
+                    <label>Message</label> <span id="userMessage-info"
+                        class="info"></span><br />
+                    <textarea name="message" id="content"
+                        class="input-field" cols="60" rows="6"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="send" class="btn-submit"
+                        value="Send" />
+    
+                    <div id="statusMessage"> 
+                            <?php
+                            if (! empty($message)) {
+                                ?>
+                                <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+                            <?php
+                            }
+                            ?>
+                        </div>
+                </div>
+            </form>
+ 
+            <div class="row">
+              <h2 style="text-align:center">Login with Social Media or Send a message on email</h2>
+              <div class="vl">
+                <span class="vl-innertext">or</span>
+              </div>
+        
+              <div class="col">
+               <a href="https://www.facebook.com/buhle.lusizi.5" class="fb btn">
+                          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                 </a>
+                <a href="https://www.instagram.com/" class="instagram btn">
+                          <i class="fa fa-instagram fa-fw"></i> Login with instagram
+                </a>
+                <a href="https://www.Linkedin.com/in/buhle-lusizi-a3a304183/" class="linkedin btn">
+                          <i class="fa fa-linkedin fa-fw">
+                          </i> Login with linkedin
+                        </a>
+              </div>
+        
+              <div class="col">
+                <div class="hide-md-lg">
+                  <p>Or send an email:</p>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LfXKPMZAAAAADEE5Y003VkO62kBJ0jezsbtC8nz"></div>
+                <a href="https://accounts.google.com/login/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Send Your Feedback On my email</a>
+              </div>
+              
+            </div>
+          </form>
+        </div>
+  <br>
+  
+     
+<p>
+<p style="color:white">Call me: 0658070482</p>
+Email:<a href="mailto: buhleomuhlelusizi@gmail.com">buhleomuhlelusizi@gmail.com</a>
+<br>
+&copy;2020 Buhle Lusizi all rights reserved</p>
+</i>
+</body>
+</html>
